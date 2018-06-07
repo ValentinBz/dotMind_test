@@ -12,7 +12,6 @@ const styles = {
 class LoadingPage extends Component {
 	render() {
 		const { classes } = this.props;
-		
 		return (
 			<div className={classes.root}>
 				<Grid container>

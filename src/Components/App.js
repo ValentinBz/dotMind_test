@@ -63,9 +63,7 @@ class App extends Component {
 			const picture = localStorage.getItem(username);
 			tab.push({username, picture})
 	    }
-		console.log("alreadyOnLocal on function : ", this.state.alreadyOnLocalStorage);
     	return tab
-		
 	}
 	
 	cleanArray(array1, array2) {
