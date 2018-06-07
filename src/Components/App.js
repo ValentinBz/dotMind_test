@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../Css/App.css';
 import Pictures from './Pictures';
 import Grid from '@material-ui/core/Grid';
-import Data from './Data';
+import Data from '../Datas/Data';
 import LoadingPage from './LoadingPage';
 import SearchBar from './SearchBar';
 
